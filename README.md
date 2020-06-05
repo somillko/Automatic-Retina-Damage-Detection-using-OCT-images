@@ -8,3 +8,47 @@ With millions of people across India reporting CNV, DME and Drusen annually, it 
 
 ## 4 Classes
 ![FourClassesOfImages](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/256X256%20images/4%20classes%20of%20diseases.png)
+
+## CNN and CNN layers
+* Convolution Layer
+* Relu layer
+* Pooling Layer
+* Flattening Layer
+* Fully Connected Layer
+
+## CNN Workflow
+![CNNWorkflow](https://miro.medium.com/max/1400/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg)
+
+## Information about the Dataset
+Link to the dataset - https://www.kaggle.com/paultimothymooney/kermany2018
+
+The data was collected from Kaggle.com which was uploaded by Paul Mooney and is licensed by Non Commerical ShareLike 4.0 which gives the permission to Share and Adapt. We have used this particular data set in our project, whose summary is as follows:
+* Total Images: 84495
+* Final Evaluation: 968 Images
+* 242 Images per category in the final evaluation
+* There are 84,495 OCT images (JPEG) and 4 categories (NORMAL,CNV,DME,DRUSEN).
+
+## Data Analysis Flowchart
+![DataAnalysis](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/Flow%20Diagrams/Data%20Analysis.png)
+
+## Baseline 3 Layered Model(95.833%)
+![3layer](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/Flow%20Diagrams/Model%203%20layer.png)
+
+## 5 Layered Model
+![5Layer](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/Flow%20Diagrams/Model%205%20Layer.png)
+
+## 7 Layered Model
+![7layered](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/Flow%20Diagrams/Model%207%20layer.png)
+
+## Results
+![table](https://github.com/somillko/Automatic-Retina-Damage-Detection-using-OCT-images/blob/master/Flow%20Diagrams/table.png)
+
+For the individual results I would suggest you see the PPT and the report, since it is not really possible to mention every result in the readme.
+
+## Major Challenges
+* Finding of a Cloud GPU resource so as to perform our training and testing part.
+* Hyper parameter optimization like optimizing the image size and number of epochs.
+* Dealing with overfitting by using dropout regularization.
+* Finding out the exact number of dropouts required so that model does not go into underfit and actually fits correctly.
+
+## Transfer Learning models Coming Soon!!

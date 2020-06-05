@@ -1,0 +1,5 @@
+here are the draw.io files for you people to style the flowcharts, the basic structure is given by me.
+
+for the data analysis one I was not ble to save draw.io file and closed the tab, so for any changes in data analysis, you might have to replicate the diagram manually.
+
+Thanks
